@@ -31,6 +31,8 @@ cc.Class({
         graphics: cc.Graphics,
         btnTest: cc.Button,
         showShot:cc.Sprite,
+        conShot:cc.Node,
+        btnClear:cc.Button,
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -78,18 +80,22 @@ cc.Class({
                 //if(CC_JSB) {
                     //如果待截图的场景中含有 mask，请使用下面注释的语句来创建 renderTexture
                     // var renderTexture = cc.RenderTexture.create(1280,640, cc.Texture2D.PIXEL_FORMAT_RGBA8888, gl.DEPTH24_STENCIL8_OES);
-                    var renderTexture = cc.RenderTexture.create(200,200);
-        
-                    //实际截屏的代码
+                    var renderTexture =  new cc.RenderTexture(400,400);
+                    this.conShot.setPosition(200,200)
+                //this.conShot.setAnchorPoint(0,0);
                     renderTexture.begin();
-                    //this.richText.node 是我们要截图的节点，如果要截整个屏幕，可以把 this.richText 换成 Canvas 切点即可
-                    this.barCode._sgNode.setAnchorPoint(0,0);
-                    this.barCode._sgNode.visit();
-                    this.barCode._sgNode.setAnchorPoint(0.5,0.5);
-                    renderTexture.end();
 
+                    this.conShot._sgNode.visit();
+
+                    renderTexture.end();
+                    this.conShot.setPosition(-250,0);
+                    //this.conShot._sgNode.setPosition(0,0);
+
+                //var nowFrame = renderTexture.getSprite().getTexture();
+                //this.showShot._sgNode.setTexture(nowFrame);
                     var nowFrame = renderTexture.getSprite().getSpriteFrame();
                     this.showShot.spriteFrame = nowFrame;
+
 
                     var action = cc.flipY(true);
                     this.showShot.node.runAction(action);
@@ -105,6 +111,14 @@ cc.Class({
                     //打印截图路径
 
                 //}
+            },
+            this);
+
+        this.btnClear.node.on('click',
+            ()=>{
+                cc.log('seth love lzh!');
+                this.showShot.spriteFrame = null;
+
             },
             this);
     },

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02125b13-9cb3-407d-b2db-5f5469bf9dae" name="Default" comment="" />
+    <list default="true" id="02125b13-9cb3-407d-b2db-5f5469bf9dae" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/main.fire" afterPath="$PROJECT_DIR$/main.fire" />
+      <change beforePath="$PROJECT_DIR$/script/mine/test.js" afterPath="$PROJECT_DIR$/script/mine/test.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,11 +22,81 @@
       <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script/mine/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="108" column="18" lean-forward="true" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+            <state relative-caret-position="230">
+              <caret line="90" column="49" lean-forward="false" selection-start-line="90" selection-start-column="49" selection-end-line="90" selection-end-column="49" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jsb_polyfill.js" pinned="false" current-in-tab="false">
+        <entry file="file://C:/CocosCreator/resources/engine/bin/jsb_polyfill.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="5474" column="0" lean-forward="false" selection-start-line="5474" selection-start-column="0" selection-end-line="5474" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CCNode.js" pinned="false" current-in-tab="false">
+        <entry file="file://C:/CocosCreator/resources/engine/cocos2d/core/CCNode.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1119">
+              <caret line="1079" column="12" lean-forward="false" selection-start-line="1079" selection-start-column="12" selection-end-line="1079" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CCSGSprite.js" pinned="false" current-in-tab="false">
+        <entry file="file://C:/CocosCreator/resources/engine/cocos2d/core/sprites/CCSGSprite.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="663" column="14" lean-forward="false" selection-start-line="663" selection-start-column="4" selection-end-line="663" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DragonBonesAtlasAsset.js" pinned="false" current-in-tab="false">
+        <entry file="file://C:/CocosCreator/resources/engine/extensions/dragonbones/DragonBonesAtlasAsset.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modular-cocos2d-cut.js" pinned="false" current-in-tab="false">
+        <entry file="file://C:/CocosCreator/resources/engine/bin/modular-cocos2d-cut.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="599" column="4" lean-forward="false" selection-start-line="599" selection-start-column="4" selection-end-line="599" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CCRenderTexture.js" pinned="false" current-in-tab="false">
+        <entry file="file://C:/CocosCreator/resources/engine/cocos2d/render-texture/CCRenderTexture.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="686">
+              <caret line="235" column="17" lean-forward="true" selection-start-line="235" selection-start-column="17" selection-end-line="235" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CCSGNode.js" pinned="false" current-in-tab="false">
+        <entry file="file://C:/CocosCreator/resources/engine/cocos2d/core/base-nodes/CCSGNode.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4641">
+              <caret line="170" column="8" lean-forward="false" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -31,7 +106,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>typeNumber</find>
+      <find>create</find>
+      <find>settexture</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -52,12 +132,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="260" />
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="201" />
+    <option name="y" value="513" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -134,23 +215,22 @@
       <option name="presentableId" value="Default" />
       <updated>1517240983576</updated>
       <workItem from="1517240984936" duration="27000" />
-      <workItem from="1517241135564" duration="3018000" />
+      <workItem from="1517241135564" duration="12718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3045000" />
+    <option name="totallyTimeSpent" value="12745000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -210,18 +290,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/CocosCreator/resources/engine/bin/cocos2d-js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="50414" column="12" lean-forward="false" selection-start-line="50414" selection-start-column="12" selection-end-line="50414" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="578" column="4" lean-forward="false" selection-start-line="578" selection-start-column="4" selection-end-line="578" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/CocosCreator/resources/engine/cocos2d/render-texture/CCRenderTexture.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="235" column="17" lean-forward="true" selection-start-line="235" selection-start-column="17" selection-end-line="235" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/CocosCreator/resources/engine/cocos2d/core/base-nodes/CCSGNode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4641">
+          <caret line="170" column="8" lean-forward="false" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/CocosCreator/resources/engine/bin/modular-cocos2d-cut.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="599" column="4" lean-forward="false" selection-start-line="599" selection-start-column="4" selection-end-line="599" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/CocosCreator/resources/engine/extensions/dragonbones/DragonBonesAtlasAsset.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/CocosCreator/resources/engine/cocos2d/core/sprites/CCSGSprite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="663" column="14" lean-forward="false" selection-start-line="663" selection-start-column="4" selection-end-line="663" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/CocosCreator/resources/engine/cocos2d/core/CCNode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1119">
+          <caret line="1079" column="12" lean-forward="false" selection-start-line="1079" selection-start-column="12" selection-end-line="1079" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/CocosCreator/resources/engine/bin/.cache/android/jsb_polyfill.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="22918" column="0" lean-forward="false" selection-start-line="22918" selection-start-column="0" selection-end-line="22918" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://C:/CocosCreator/resources/engine/bin/jsb_polyfill.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
-          <caret line="67" column="40" lean-forward="false" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+          <caret line="5474" column="0" lean-forward="false" selection-start-line="5474" selection-start-column="0" selection-end-line="5474" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script/mine/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="108" column="18" lean-forward="true" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+        <state relative-caret-position="230">
+          <caret line="90" column="49" lean-forward="false" selection-start-line="90" selection-start-column="49" selection-end-line="90" selection-end-column="49" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
